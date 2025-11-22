@@ -24,7 +24,7 @@ def main():
     wpp.rename_user("luís rafael sena", "Luís")
 
     # 3. Analysis: Repeated Message Frequency
-    word_to_find = "Péssimo"
+    word_to_find = "te amo"
     df_result, title = wpp.repeated_message(word_to_find)
 
     print(f"--- Analysis: {title} ---")
